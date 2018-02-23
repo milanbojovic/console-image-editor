@@ -20,7 +20,7 @@ public class Image {
         clearImage();
     }
 
-    private void clearImage() {
+    public void clearImage() {
         for (int n = 0; n < N; n++) {
             for (int m = 0; m < M; m++) {
                 data[m][n] = 'O';
